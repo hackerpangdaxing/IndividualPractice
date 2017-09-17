@@ -11,6 +11,7 @@ public class UseReentrantReadWriteLock {
     private ReentrantReadWriteLock.ReadLock readLock = reentrantReadWriteLock.readLock();
     private ReentrantReadWriteLock.WriteLock writeLock = reentrantReadWriteLock.writeLock();
 
+
     public void read(){
         try {
             readLock.lock();

@@ -2,6 +2,7 @@ package suanfa;
 import java.util.Stack;
 /**
  * Created by 胖大星 on 2017/9/6.
+ * 遍历二叉树
  */
 public class BianliOfBinarryTree {
     public static class TreeNode {
