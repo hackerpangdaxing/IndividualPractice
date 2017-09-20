@@ -1,12 +1,13 @@
 package suanfa;
-import java.util.Stack;
+import java.util.*;
+
 /**
  * Created by 胖大星 on 2017/9/6.
  * 遍历二叉树
  */
 public class BianliOfBinarryTree {
     public static class TreeNode {
-        int val = 0;
+        int val = 0;   //节点存放的值
         TreeNode left = null;
         TreeNode right = null;
 
@@ -75,6 +76,8 @@ public class BianliOfBinarryTree {
             }
         }
     }
+
+
     //后序遍历暂时还不会
     /*public void postOrder2(TreeNode node){
         Stack<TreeNode> stack=new Stack<TreeNode>();
@@ -91,6 +94,8 @@ public class BianliOfBinarryTree {
 
         }
     }*/
+
+
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(8);
@@ -121,5 +126,7 @@ public class BianliOfBinarryTree {
         System.out.println("方法二：《《中序遍历-------");
         // bianli.postOrder2(root);
         System.out.println("方法二：《《后序遍历-------");*/
+
+
     }
 }
